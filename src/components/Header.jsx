@@ -19,7 +19,7 @@ const Header = () => {
                             <a href="#">
                                 <img src={Logo} alt="Logo" className='!max-w-[90.811px] h-[60px] w-full' />
                             </a>
-                            <a href="services" className='text-[15px] lg:block hidden font-semibold text-black no-underline whitespace-nowrap after:absolute relative after:transition-all after:duration-300 after:ease-linear after:h-[2px] after:rounded-[10px] after:bg-[#B00000] after:left-[11%] after:right-[89%] hover:after:right-[11%] after:bottom-[-4px]'>Our Services</a>
+                            <a href="#services" className='text-[15px] lg:block hidden font-semibold text-black no-underline whitespace-nowrap after:absolute relative after:transition-all after:duration-300 after:ease-linear after:h-[2px] after:rounded-[10px] after:bg-[#B00000] after:left-[11%] after:right-[89%] hover:after:right-[11%] after:bottom-[-4px]'>Our Services</a>
                         </div>
                         <div className='flex items-center xl:gap-[33px] gap-[15px]'>
                             <a href="#about" className='lg:block hidden text-[15px] font-semibold text-black no-underline after:absolute relative after:transition-all after:duration-300 after:ease-linear after:left-[11%] after:right-[89%] hover:after:right-[11%] after:h-[2px] after:rounded-[10px] after:bg-[#B00000] after:bottom-[-4px]'>About</a>

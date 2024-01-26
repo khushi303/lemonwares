@@ -9,7 +9,7 @@ import Cloudfare from '../assets/images/png/cloudfare.png';
 const WebHosting = () => {
     return (
         <>
-            <div className='container mx-auto xl:max-w-[1308px] xl:px-3 px-6 md:pt-[78px] md:pb-[118px] py-[60px]'>
+            <div id='about' className='container mx-auto xl:max-w-[1308px] xl:px-3 px-6 md:pt-[78px] md:pb-[118px] py-[60px]'>
                 <div className='flex flex-row flex-wrap justify-between'>
                     <div className='lg:w-[49%] w-full'>
                         <h2 data-aos="fade-right" className='xl:text-[48px] lg:text-[38px] sm:text-[48px] text-[35px] font-extrabold ff_inter leading-[133.333%] text-[#18191F] mb-[20px]'>True Cloud Web  Hosting</h2>
