@@ -36,4 +36,4 @@ const CardsSvg = () => {
     )
 }
 
-export default CardsSvg
+export default CardsSvg;
