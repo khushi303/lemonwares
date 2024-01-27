@@ -4,7 +4,7 @@ import Logo from '../assets/images/png/brandingimg.png';
 const Footer = () => {
     return (
         <>
-            <div className="bg-[#B00000] lg:pt-[64px] lg:pb-[80px] py-[60px]">
+            <div className="bg-[#B00000] lg:pt-[64px] lg:pb-[80px] sm:py-[60px] py-[50px]">
                 <div className="container xl:max-w-[1245px] mx-auto lg:px-3 px-6">
                     <div className="flex flex-row justify-between flex-wrap">
                         <div className="lg:w-4/12 w-full">

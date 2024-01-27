@@ -7,7 +7,7 @@ import RedImg3 from "../assets/images/png/redimg3.png";
 const GetInTouch = () => {
     return (
         <>
-            <div id="contact" className="lg:pt-[106px] lg:pb-[110px] py-[50px]">
+            <div id="contact" className="lg:pt-[106px] lg:pb-[110px] sm:py-[60px] py-[50px]">
                 <div className="container mx-auto xl:max-w-[1296px] xl:px-3 px-6 ">
                     <div data-aos="zoom-in" className="rounded-[16px] relative flex flex-col items-center justify-center sm:pt-[80px] sm:pb-[88px] py-[70px] px-3 sm:ml-[15px] sm:mr-[25px] bg-[#F7FAFE]">
                         <h2 className="text-[#2E2E2E] ff_poppins font-semibold lg:text-[64px] sm:text-[43px] text-[22px] leading-[137.5%] text-center sm:mb-[40px] mb-[20px] lg:max-w-[1024px] ">

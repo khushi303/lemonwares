@@ -9,7 +9,7 @@ const Tabs = () => {
   return (
     <>
       <ul data-aos="fade-right"
-        className="inline-flex mb-0 flex-wrap lg:pt-[80px] pt-[50px] flex-row after:absolute relative after:h-[1px] after:bottom-0 after:z-[2] after:left-[1%] after:right-[1%] after:bg-[#E5E5E5]"
+        className="inline-flex mb-0 flex-wrap lg:pt-[80px] sm:pt-[50px] pt-[40px] flex-row after:absolute relative after:h-[1px] after:bottom-0 after:z-[2] after:left-[1%] after:right-[1%] after:bg-[#E5E5E5]"
         role="tablist"
       >
         <li className='pb-1 relative'>
