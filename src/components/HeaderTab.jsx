@@ -13,8 +13,7 @@ const Tabs = () => {
         role="tablist"
       >
         <li className='pb-1 relative'>
-          <a className={"text-[15px] font-semibold leading-normal " + (openTab === 1 ? "text-[#B00000]" : "text-[rgba(214,212,212,0.88)]")
-          }
+          <a className={`${openTab === 1 ? "text-[#B00000]" : "text-[rgba(214,212,212,0.88)]"} text-[15px] font-semibold leading-normal transition-all duration-300 ease-linear`}
             onClick={e => {
               e.preventDefault();
               setOpenTab(1);
@@ -23,14 +22,10 @@ const Tabs = () => {
             href="#link1"
             role="tablist"
           >Hosting</a>
-          <div className={"absolute h-[1px] bottom-0 left-[7%] right-[10%] bg-[#B00000] z-[4]" + (openTab === 1 ? "" : "bg-[#B00000]")}></div>
+          <div className={`${openTab === 1 ? "bg-[#B00000]" : ""} absolute h-[1px] transition-all duration-300 ease-linear bottom-0 left-[7%] right-[10%] z-[4]`}></div>
         </li>
         <li className='ml-[23px] pb-1 relative'>
-          <a className={
-            "text-[15px] font-semibold leading-normal " +
-            (openTab === 2
-              ? "text-[#B00000]" : "text-[rgba(214,212,212,0.88)]")
-          }
+          <a className={`${openTab === 2 ? "text-[#B00000]" : "text-[rgba(214,212,212,0.88)]"} text-[15px] font-semibold leading-normal transition-all duration-300 ease-linear`}
             onClick={e => {
               e.preventDefault();
               setOpenTab(2);
@@ -39,14 +34,10 @@ const Tabs = () => {
             href="#link2"
             role="tablist"
           >Domain</a>
-          <div className={"absolute h-[1px] bottom-0 left-[7%] right-[10%] bg-[#B00000] z-[4]" + (openTab === 2 ? "" : "bg-[#B00000]")}></div>
+          <div className={`${openTab === 2 ? "bg-[#B00000]" : ""} absolute h-[1px] transition-all duration-300 ease-linear bottom-0 left-[7%] right-[10%] z-[4]`}></div>
         </li>
         <li className='ml-[18px] pb-1 relative'>
-          <a className={
-            "text-[15px] font-semibold leading-normal " +
-            (openTab === 3
-              ? "text-[#B00000]" : "text-[rgba(214,212,212,0.88)]")
-          }
+          <a className={`${openTab === 3 ? "text-[#B00000]" : "text-[rgba(214,212,212,0.88)]"} text-[15px] font-semibold leading-normal transition-all duration-300 ease-linear`}
             onClick={e => {
               e.preventDefault();
               setOpenTab(3);
@@ -55,14 +46,10 @@ const Tabs = () => {
             href="#link3"
             role="tablist"
           >SEO</a>
-          <div className={"absolute h-[1px] bottom-0 left-[7%] right-[10%] bg-[#B00000] z-[4]" + (openTab === 3 ? "" : "bg-[#B00000]")}></div>
+          <div className={`${openTab === 3 ? "bg-[#B00000]" : ""} absolute h-[1px] transition-all duration-300 ease-linear bottom-0 left-[7%] right-[10%] z-[4]`}></div>
         </li>
         <li className='ml-[15px] pb-1 relative'>
-          <a className={
-            "text-[15px] font-semibold leading-normal " +
-            (openTab === 4
-              ? "text-[#B00000]" : "text-[rgba(214,212,212,0.88)]")
-          }
+          <a className={`${openTab === 4 ? "text-[#B00000]" : "text-[rgba(214,212,212,0.88)]"} text-[15px] font-semibold leading-normal transition-all duration-300 ease-linear`}
             onClick={e => {
               e.preventDefault();
               setOpenTab(4);
@@ -71,7 +58,7 @@ const Tabs = () => {
             href="#link4"
             role="tablist"
           >Email</a>
-          <div className={"absolute h-[1px] bottom-0 left-[7%] right-[10%] bg-[#B00000] z-[4]" + (openTab === 4 ? "" : "bg-[#B00000]")}></div>
+          <div className={`${openTab === 4 ? "bg-[#B00000]" : ""} absolute h-[1px] transition-all duration-300 ease-linear bottom-0 left-[7%] right-[10%] z-[4]`}></div>
         </li>
       </ul>
       <div className="relative flex flex-col">
