@@ -10,8 +10,18 @@ const Loader = () => {
                 <div className="shadow"></div>
                 <div className="shadow"></div>
                 <div className="shadow"></div>
-                <span>Loading</span>
+                {/* <span>Loading</span> */}
             </div>
+            {/* <div class="preloader-fountainTextG">
+                <div id="fountainTextG_1" class="fountainTextG">L</div>
+                <div id="fountainTextG_2" class="fountainTextG">o</div>
+                <div id="fountainTextG_3" class="fountainTextG">a</div>
+                <div id="fountainTextG_4" class="fountainTextG">d</div>
+                <div id="fountainTextG_5" class="fountainTextG">i</div>
+                <div id="fountainTextG_6" class="fountainTextG">n</div>
+                <div id="fountainTextG_7" class="fountainTextG">g</div>
+            </div> */}
+
         </>
     )
 }

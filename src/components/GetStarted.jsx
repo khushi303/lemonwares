@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { Blacktick } from './Iconimg';
+import { Blacktick, RedTick } from './Iconimg';
 
 const GetStarted = () => {
     const [toggle, setToggle] = useState(false);
@@ -35,43 +35,43 @@ const GetStarted = () => {
                                 <h3 className={`${show ? "text-[#B00000]" : "text-black"} text-[28px] font-semibold leading-[89.286%]`}>Starter</h3>
                                 <p className='text-[12px] font-normal text-black leading-[150%] max-w-[237px] mt-[11px]'>with all your customers via all conversation channels in one central dashboard.</p>
                                 {toggle ? (<div>{show ? (<p className='text-[#B00000] text-[42px] font-semibold leading-[76.19%] mt-[28px]'>$60.00</p>) : (<p className='text-black text-[42px] font-semibold leading-[76.19%] mt-[28px]'>$40:20</p>)}</div>) : (<div>{show ? (<p className='text-[#B00000] text-[42px] font-semibold leading-[76.19%] mt-[28px]'>$4.00</p>) : (<p className='text-black text-[42px] font-semibold leading-[76.19%] mt-[28px]'>$2:80</p>)}</div>)}
-                                <p className='text-[14px] font-light text-black leading-[100%] mt-[11px] mb-[35px]'>Per month</p>
+                                {toggle ? <p className='text-[14px] font-light text-black leading-[100%] mt-[11px] mb-[35px]'>Per year</p> : <p className='text-[14px] font-light text-black leading-[100%] mt-[11px] mb-[35px]'>Per month</p>}
                                 {show ? <button className='text-[14px] group-hover:bg-[#B00000] transition-colors group-hover:text-white duration-300 ease-linear font-semibold leading-[228.571%] text-[#B00000] py-[9px] pl-[56px] pr-[60px] border-[2px] border-solid border-[#B00000] rounded-[12px]'>Choose this Plan</button> : <button className='text-[14px] group-hover:bg-black transition-colors group-hover:text-white duration-300 ease-linear font-semibold leading-[228.571%] text-black py-[9px] pl-[56px] pr-[60px] border-[2px] border-solid border-black rounded-[12px]'>Choose this Plan</button>}
                                 <div className='flex flex-col gap-[15px] mt-[35px]'>
                                     <div className='flex gap-[24px] items-center'>
-                                        <Blacktick />
+                                        {show ? (<RedTick />) : (<Blacktick />)}
                                         <p className='text-[16px] ff_inter font-bold leading-[146%] text-[#808080]'>2GB SSD</p>
                                     </div>
                                     <div className='flex gap-[24px] items-center'>
-                                        <Blacktick />
+                                        {show ? (<RedTick />) : (<Blacktick />)}
                                         <p className='text-[16px] ff_inter font-bold leading-[146%] text-[#808080]'>10GB Bandwidth</p>
                                     </div>
                                     <div className='flex gap-[24px] items-center'>
-                                        <Blacktick />
+                                        {show ? (<RedTick />) : (<Blacktick />)}
                                         <p className='text-[16px] ff_inter font-bold leading-[146%] text-[#808080]'>15 Email Accounts</p>
                                     </div>
                                     <div className='flex gap-[24px] items-center'>
-                                        <Blacktick />
+                                        {show ? (<RedTick />) : (<Blacktick />)}
                                         <p className='text-[16px] ff_inter font-bold leading-[146%] text-[#808080]'>Unlimited Database</p>
                                     </div>
                                     <div className='flex gap-[24px] items-center'>
-                                        <Blacktick />
+                                        {show ? (<RedTick />) : (<Blacktick />)}
                                         <p className='text-[16px] ff_inter font-bold leading-[146%] text-[#808080]'>4 Subdomains</p>
                                     </div>
                                     <div className='flex gap-[24px] items-center'>
-                                        <Blacktick />
+                                        {show ? (<RedTick />) : (<Blacktick />)}
                                         <p className='text-[16px] ff_inter font-bold leading-[146%] text-[#808080]'>1 Parked Domain</p>
                                     </div>
                                     <div className='flex gap-[24px] items-center'>
-                                        <Blacktick />
+                                        {show ? (<RedTick />) : (<Blacktick />)}
                                         <p className='text-[16px] ff_inter font-bold leading-[146%] text-[#808080]'>2 Websites</p>
                                     </div>
                                     <div className='flex gap-[24px] items-center'>
-                                        <Blacktick />
+                                        {show ? (<RedTick />) : (<Blacktick />)}
                                         <p className='text-[16px] ff_inter font-bold leading-[146%] text-[#808080]'>Free SSL</p>
                                     </div>
                                     <div className='flex gap-[24px] items-center'>
-                                        <Blacktick />
+                                        {show ? (<RedTick />) : (<Blacktick />)}
                                         <p className='text-[16px] ff_inter font-bold leading-[146%] text-[#808080]'>Softaculous</p>
                                     </div>
                                 </div>
@@ -82,43 +82,43 @@ const GetStarted = () => {
                                 <h3 className={`${show ? "text-[#B00000]" : "text-black"} text-[28px] font-semibold leading-[89.286%]`}>Standard</h3>
                                 <p className='text-[12px] font-normal text-black leading-[150%] max-w-[237px] mt-[11px]'>with all your customers via all conversation channels in one central dashboard.</p>
                                 {toggle ? (<div>{show ? (<p className='text-[#B00000] text-[42px] font-semibold leading-[76.19%] mt-[28px]'>$80.00</p>) : (<p className='text-black text-[42px] font-semibold leading-[76.19%] mt-[28px]'>$50:20</p>)}</div>) : (<div>{show ? (<p className='text-[#B00000] text-[42px] font-semibold leading-[76.19%] mt-[28px]'>$8.00</p>) : (<p className='text-black text-[42px] font-semibold leading-[76.19%] mt-[28px]'>$4:20</p>)}</div>)}
-                                <p className='text-[14px] font-light text-black leading-[100%] mt-[11px] mb-[35px]'>Per month</p>
+                                {toggle ? <p className='text-[14px] font-light text-black leading-[100%] mt-[11px] mb-[35px]'>Per year</p> : <p className='text-[14px] font-light text-black leading-[100%] mt-[11px] mb-[35px]'>Per month</p>}
                                 {show ? <button className='text-[14px] group-hover:bg-[#B00000] transition-colors group-hover:text-white duration-300 ease-linear font-semibold leading-[228.571%] text-[#B00000] py-[9px] pl-[56px] pr-[60px] border-[2px] border-solid border-[#B00000] rounded-[12px]'>Choose this Plan</button> : <button className='text-[14px] group-hover:bg-black transition-colors group-hover:text-white duration-300 ease-linear font-semibold leading-[228.571%] text-black py-[9px] pl-[56px] pr-[60px] border-[2px] border-solid border-black rounded-[12px]'>Choose this Plan</button>}
                                 <div className='flex flex-col gap-[15px] mt-[35px]'>
                                     <div className='flex gap-[24px] items-center'>
-                                        <Blacktick />
+                                        {show ? (<RedTick />) : (<Blacktick />)}
                                         <p className='text-[16px] ff_inter font-bold leading-[146%] text-[#808080]'>2GB SSD</p>
                                     </div>
                                     <div className='flex gap-[24px] items-center'>
-                                        <Blacktick />
+                                        {show ? (<RedTick />) : (<Blacktick />)}
                                         <p className='text-[16px] ff_inter font-bold leading-[146%] text-[#808080]'>10GB Bandwidth</p>
                                     </div>
                                     <div className='flex gap-[24px] items-center'>
-                                        <Blacktick />
+                                        {show ? (<RedTick />) : (<Blacktick />)}
                                         <p className='text-[16px] ff_inter font-bold leading-[146%] text-[#808080]'>15 Email Accounts</p>
                                     </div>
                                     <div className='flex gap-[24px] items-center'>
-                                        <Blacktick />
+                                        {show ? (<RedTick />) : (<Blacktick />)}
                                         <p className='text-[16px] ff_inter font-bold leading-[146%] text-[#808080]'>Unlimited Database</p>
                                     </div>
                                     <div className='flex gap-[24px] items-center'>
-                                        <Blacktick />
+                                        {show ? (<RedTick />) : (<Blacktick />)}
                                         <p className='text-[16px] ff_inter font-bold leading-[146%] text-[#808080]'>4 Subdomains</p>
                                     </div>
                                     <div className='flex gap-[24px] items-center'>
-                                        <Blacktick />
+                                        {show ? (<RedTick />) : (<Blacktick />)}
                                         <p className='text-[16px] ff_inter font-bold leading-[146%] text-[#808080]'>1 Parked Domain</p>
                                     </div>
                                     <div className='flex gap-[24px] items-center'>
-                                        <Blacktick />
+                                        {show ? (<RedTick />) : (<Blacktick />)}
                                         <p className='text-[16px] ff_inter font-bold leading-[146%] text-[#808080]'>2 Websites</p>
                                     </div>
                                     <div className='flex gap-[24px] items-center'>
-                                        <Blacktick />
+                                        {show ? (<RedTick />) : (<Blacktick />)}
                                         <p className='text-[16px] ff_inter font-bold leading-[146%] text-[#808080]'>Free SSL</p>
                                     </div>
                                     <div className='flex gap-[24px] items-center'>
-                                        <Blacktick />
+                                        {show ? (<RedTick />) : (<Blacktick />)}
                                         <p className='text-[16px] ff_inter font-bold leading-[146%] text-[#808080]'>Softaculous</p>
                                     </div>
                                 </div>
@@ -126,46 +126,46 @@ const GetStarted = () => {
                         </div>
                         <div data-aos="fade-left" className='xl:w-[28%] lg:w-[31%] sm:w-[48%] w-full lg:mx-[unset] sm:mx-auto lg:mt-0 mt-6 sm:block flex items-center justify-center'>
                             <div className=' pl-[35px] pr-[27px] pt-[34px] pb-[48px] border-[1.5px] group cursor-pointer sm:max-w-[unset] max-w-[320px] border-solid border-[#C4C4C4] rounded-[15px] shadow-[0px_0px_4px_0px_rgba(0,0,0,0.25)_inset] hover:bg-[#c4c4c425] transition-all duration-300 ease-linear'>
-                                <h3 className={`${show ? "text-[#B00000]" : "text-black"} text-[28px] font-semibold leading-[89.286%]`}>Suprem</h3>
+                                <h3 className={`${show ? "text-[#B00000]" : "text-black"} text-[28px] font-semibold transition-colors duration-300 ease-linear leading-[89.286%]`}>Suprem</h3>
                                 <p className='text-[12px] font-normal text-black leading-[150%] max-w-[237px] mt-[11px]'>with all your customers via all conversation channels in one central dashboard.</p>
                                 {toggle ? (<div>{show ? (<p className='text-[#B00000] text-[42px] font-semibold leading-[76.19%] mt-[28px]'>$120.00</p>) : (<p className='text-black text-[42px] font-semibold leading-[76.19%] mt-[28px]'>$100:20</p>)}</div>) : (<div>{show ? (<p className='text-[#B00000] text-[42px] font-semibold leading-[76.19%] mt-[28px]'>$10.00</p>) : (<p className='text-black text-[42px] font-semibold leading-[76.19%] mt-[28px]'>$7:00</p>)}</div>)}
-                                <p className='text-[14px] font-light text-black leading-[100%] mt-[11px] mb-[35px]'>Per month</p>
+                                {toggle ? <p className='text-[14px] font-light text-black leading-[100%] mt-[11px] mb-[35px]'>Per year</p> : <p className='text-[14px] font-light text-black leading-[100%] mt-[11px] mb-[35px]'>Per month</p>}
                                 {show ? <button className='text-[14px] group-hover:bg-[#B00000] transition-colors group-hover:text-white duration-300 ease-linear font-semibold leading-[228.571%] text-[#B00000] py-[9px] pl-[56px] pr-[60px] border-[2px] border-solid border-[#B00000] rounded-[12px]'>Choose this Plan</button> : <button className='text-[14px] group-hover:bg-black transition-colors group-hover:text-white duration-300 ease-linear font-semibold leading-[228.571%] text-black py-[9px] pl-[56px] pr-[60px] border-[2px] border-solid border-black rounded-[12px]'>Choose this Plan</button>}
                                 <div className='flex flex-col gap-[15px] mt-[35px]'>
                                     <div className='flex gap-[24px] items-center'>
-                                        <Blacktick />
+                                        {show ? (<RedTick />) : (<Blacktick />)}
                                         <p className='text-[16px] ff_inter font-bold leading-[146%] text-[#808080]'>2GB SSD</p>
                                     </div>
                                     <div className='flex gap-[24px] items-center'>
-                                        <Blacktick />
+                                        {show ? (<RedTick />) : (<Blacktick />)}
                                         <p className='text-[16px] ff_inter font-bold leading-[146%] text-[#808080]'>10GB Bandwidth</p>
                                     </div>
                                     <div className='flex gap-[24px] items-center'>
-                                        <Blacktick />
+                                        {show ? (<RedTick />) : (<Blacktick />)}
                                         <p className='text-[16px] ff_inter font-bold leading-[146%] text-[#808080]'>15 Email Accounts</p>
                                     </div>
                                     <div className='flex gap-[24px] items-center'>
-                                        <Blacktick />
+                                        {show ? (<RedTick />) : (<Blacktick />)}
                                         <p className='text-[16px] ff_inter font-bold leading-[146%] text-[#808080]'>Unlimited Database</p>
                                     </div>
                                     <div className='flex gap-[24px] items-center'>
-                                        <Blacktick />
+                                        {show ? (<RedTick />) : (<Blacktick />)}
                                         <p className='text-[16px] ff_inter font-bold leading-[146%] text-[#808080]'>4 Subdomains</p>
                                     </div>
                                     <div className='flex gap-[24px] items-center'>
-                                        <Blacktick />
+                                        {show ? (<RedTick />) : (<Blacktick />)}
                                         <p className='text-[16px] ff_inter font-bold leading-[146%] text-[#808080]'>1 Parked Domain</p>
                                     </div>
                                     <div className='flex gap-[24px] items-center'>
-                                        <Blacktick />
+                                        {show ? (<RedTick />) : (<Blacktick />)}
                                         <p className='text-[16px] ff_inter font-bold leading-[146%] text-[#808080]'>2 Websites</p>
                                     </div>
                                     <div className='flex gap-[24px] items-center'>
-                                        <Blacktick />
+                                        {show ? (<RedTick />) : (<Blacktick />)}
                                         <p className='text-[16px] ff_inter font-bold leading-[146%] text-[#808080]'>Free SSL</p>
                                     </div>
                                     <div className='flex gap-[24px] items-center'>
-                                        <Blacktick />
+                                        {show ? (<RedTick />) : (<Blacktick />)}
                                         <p className='text-[16px] ff_inter font-bold leading-[146%] text-[#808080]'>Softaculous</p>
                                     </div>
                                 </div>

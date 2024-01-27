@@ -91,6 +91,13 @@ export const Blacktick = () => {
         </svg>
     )
 }
+export const RedTick = () => {
+    return (
+        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
+            <path d="M9.99301 19.421L3.28601 12.58L4.71401 11.18L10.007 16.579L19.293 7.29303L20.707 8.70703L9.99301 19.421Z" fill="#B00000" />
+        </svg>
+    )
+}
 
 export const Skycommas = () => {
     return (
