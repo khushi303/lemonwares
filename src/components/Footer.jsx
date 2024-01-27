@@ -30,7 +30,7 @@ const Footer = () => {
                                         </li>
                                         <li>
                                             <a
-                                                className="text-[#E6E6E6] hover:text-white transition-colors ease-linear duration-500 text-base !leading-[200%] pb-1 font-normal ff_inter relative after:absolute after:bg-white after:h-[0.5px] after:bottom-0 after:left-[9%] after:right-[91%] after:hover:right-[9%] after:transition-all after:ease-linear after:duration-500 "
+                                                className="text-[#E6E6E6] hover:text-white transition-colors ease-linear duration-500 text-base !leading-[200%] pb-1 font-normal ff_inter relative after:absolute after:bg-white after:h-[1.5px] after:bottom-0 after:left-[9%] after:right-[91%] after:hover:right-[9%] after:transition-all after:ease-linear after:duration-500 "
                                                 href=""
                                             >
                                                 Domain
@@ -38,7 +38,7 @@ const Footer = () => {
                                         </li>
                                         <li>
                                             <a
-                                                className="text-[#E6E6E6] hover:text-white transition-colors ease-linear duration-500 text-base !leading-[200%] pb-1 whitespace-nowrap font-normal ff_inter relative after:absolute after:bg-white after:h-[0.5px] after:bottom-0 after:left-[9%] after:right-[91%] after:hover:right-[9%] after:transition-all after:ease-linear after:duration-500 "
+                                                className="text-[#E6E6E6] hover:text-white transition-colors ease-linear duration-500 text-base !leading-[200%] pb-1 whitespace-nowrap font-normal ff_inter relative after:absolute after:bg-white after:h-[1.5px] after:bottom-0 after:left-[9%] after:right-[91%] after:hover:right-[9%] after:transition-all after:ease-linear after:duration-500 "
                                                 href=""
                                             >
                                                 Shared Hosting
@@ -46,7 +46,7 @@ const Footer = () => {
                                         </li>
                                         <li>
                                             <a
-                                                className="text-[#E6E6E6] hover:text-white transition-colors ease-linear duration-500 text-base !leading-[200%] whitespace-nowrap pb-1 font-normal ff_inter relative after:absolute after:bg-white after:h-[0.5px] after:bottom-0 after:left-[9%] after:right-[91%] after:hover:right-[9%] after:transition-all after:ease-linear after:duration-500 "
+                                                className="text-[#E6E6E6] hover:text-white transition-colors ease-linear duration-500 text-base !leading-[200%] whitespace-nowrap pb-1 font-normal ff_inter relative after:absolute after:bg-white after:h-[1.5px] after:bottom-0 after:left-[9%] after:right-[91%] after:hover:right-[9%] after:transition-all after:ease-linear after:duration-500 "
                                                 href=""
                                             >
                                                 Cloud Hosting
@@ -54,7 +54,7 @@ const Footer = () => {
                                         </li>
                                         <li>
                                             <a
-                                                className="text-[#E6E6E6] whitespace-nowrap hover:text-white transition-colors ease-linear duration-500 text-base !leading-[200%] pb-1 font-normal ff_inter relative after:absolute after:bg-white after:h-[0.5px] after:bottom-0 after:left-[9%] after:right-[91%] after:hover:right-[9%] after:transition-all after:ease-linear after:duration-500 "
+                                                className="text-[#E6E6E6] whitespace-nowrap hover:text-white transition-colors ease-linear duration-500 text-base !leading-[200%] pb-1 font-normal ff_inter relative after:absolute after:bg-white after:h-[1.5px] after:bottom-0 after:left-[9%] after:right-[91%] after:hover:right-[9%] after:transition-all after:ease-linear after:duration-500 "
                                                 href=""
                                             >
                                                 Private Hosting
@@ -69,7 +69,7 @@ const Footer = () => {
                                         </li>
                                         <li>
                                             <a
-                                                className="text-[#E6E6E6] hover:text-white transition-colors ease-linear duration-500 text-base !leading-[200%] whitespace-nowrap pb-1 font-normal ff_inter relative after:absolute after:bg-white after:h-[0.5px] after:bottom-0 after:left-[9%] after:right-[91%] after:hover:right-[9%] after:transition-all after:ease-linear after:duration-500 "
+                                                className="text-[#E6E6E6] hover:text-white transition-colors ease-linear duration-500 text-base !leading-[200%] whitespace-nowrap pb-1 font-normal ff_inter relative after:absolute after:bg-white after:h-[1.5px] after:bottom-0 after:left-[9%] after:right-[91%] after:hover:right-[9%] after:transition-all after:ease-linear after:duration-500 "
                                                 href=""
                                             >
                                                 Cheap Hosting
@@ -77,7 +77,7 @@ const Footer = () => {
                                         </li>
                                         <li>
                                             <a
-                                                className="text-[#E6E6E6] hover:text-white transition-colors ease-linear duration-500 text-base !leading-[200%] whitespace-nowrap pb-1 font-normal ff_inter relative after:absolute after:bg-white after:h-[0.5px] after:bottom-0 after:left-[9%] after:right-[91%] after:hover:right-[9%] after:transition-all after:ease-linear after:duration-500 "
+                                                className="text-[#E6E6E6] hover:text-white transition-colors ease-linear duration-500 text-base !leading-[200%] whitespace-nowrap pb-1 font-normal ff_inter relative after:absolute after:bg-white after:h-[1.5px] after:bottom-0 after:left-[9%] after:right-[91%] after:hover:right-[9%] after:transition-all after:ease-linear after:duration-500 "
                                                 href=""
                                             >
                                                 Hosting Wordpress
@@ -85,7 +85,7 @@ const Footer = () => {
                                         </li>
                                         <li>
                                             <a
-                                                className="text-[#E6E6E6] hover:text-white transition-colors ease-linear duration-500 text-base !leading-[200%] pb-1 font-normal ff_inter relative after:absolute after:bg-white after:h-[0.5px] after:bottom-0 after:left-[9%] after:right-[91%] after:hover:right-[9%] after:transition-all after:ease-linear after:duration-500 "
+                                                className="text-[#E6E6E6] hover:text-white transition-colors ease-linear duration-500 text-base !leading-[200%] pb-1 font-normal ff_inter relative after:absolute after:bg-white after:h-[1.5px] after:bottom-0 after:left-[9%] after:right-[91%] after:hover:right-[9%] after:transition-all after:ease-linear after:duration-500 "
                                                 href=""
                                             >
                                                 Email Hosting
@@ -93,7 +93,7 @@ const Footer = () => {
                                         </li>
                                         <li>
                                             <a
-                                                className="text-[#E6E6E6] hover:text-white transition-colors ease-linear duration-500 text-base !leading-[200%] pb-1 whitespace-nowrap font-normal ff_inter relative after:absolute after:bg-white after:h-[0.5px] after:bottom-0 after:left-[9%] after:right-[91%] after:hover:right-[9%] after:transition-all after:ease-linear after:duration-500 "
+                                                className="text-[#E6E6E6] hover:text-white transition-colors ease-linear duration-500 text-base !leading-[200%] pb-1 whitespace-nowrap font-normal ff_inter relative after:absolute after:bg-white after:h-[1.5px] after:bottom-0 after:left-[9%] after:right-[91%] after:hover:right-[9%] after:transition-all after:ease-linear after:duration-500 "
                                                 href=""
                                             >
                                                 Hosting Unlimited
@@ -108,7 +108,7 @@ const Footer = () => {
                                         </li>
                                         <li>
                                             <a
-                                                className="text-[#E6E6E6] hover:text-white transition-colors ease-linear duration-500 text-base !leading-[200%] pb-1 font-normal ff_inter relative after:absolute after:bg-white after:h-[0.5px] after:bottom-0 after:left-[9%] after:right-[91%] after:hover:right-[9%] after:transition-all after:ease-linear after:duration-500 "
+                                                className="text-[#E6E6E6] hover:text-white transition-colors ease-linear duration-500 text-base !leading-[200%] pb-1 font-normal ff_inter relative after:absolute after:bg-white after:h-[1.5px] after:bottom-0 after:left-[9%] after:right-[91%] after:hover:right-[9%] after:transition-all after:ease-linear after:duration-500 "
                                                 href=""
                                             >
                                                 About
@@ -116,7 +116,7 @@ const Footer = () => {
                                         </li>
                                         <li>
                                             <a
-                                                className="text-[#E6E6E6] hover:text-white transition-colors ease-linear duration-500 text-base !leading-[200%] pb-1 font-normal ff_inter relative after:absolute after:bg-white after:h-[0.5px] after:bottom-0 after:left-[9%] after:right-[91%] after:hover:right-[9%] after:transition-all after:ease-linear after:duration-500 "
+                                                className="text-[#E6E6E6] hover:text-white transition-colors ease-linear duration-500 text-base !leading-[200%] pb-1 font-normal ff_inter relative after:absolute after:bg-white after:h-[1.5px] after:bottom-0 after:left-[9%] after:right-[91%] after:hover:right-[9%] after:transition-all after:ease-linear after:duration-500 "
                                                 href=""
                                             >
                                                 Career
@@ -124,7 +124,7 @@ const Footer = () => {
                                         </li>
                                         <li>
                                             <a
-                                                className="text-[#E6E6E6] hover:text-white transition-colors ease-linear duration-500 text-base !leading-[200%] pb-1 font-normal ff_inter relative after:absolute after:bg-white after:h-[0.5px] after:bottom-0 after:left-[9%] after:right-[91%] after:hover:right-[9%] after:transition-all after:ease-linear after:duration-500 "
+                                                className="text-[#E6E6E6] hover:text-white transition-colors ease-linear duration-500 text-base !leading-[200%] pb-1 font-normal ff_inter relative after:absolute after:bg-white after:h-[1.5px] after:bottom-0 after:left-[9%] after:right-[91%] after:hover:right-[9%] after:transition-all after:ease-linear after:duration-500 "
                                                 href=""
                                             >
                                                 Contact Us
@@ -139,7 +139,7 @@ const Footer = () => {
                                         </li>
                                         <li>
                                             <a
-                                                className="text-[#E6E6E6] hover:text-white transition-colors ease-linear duration-500 text-base !leading-[200%] pb-1 font-normal ff_inter relative after:absolute after:bg-white after:h-[0.5px] after:bottom-0 after:left-[9%] after:right-[91%] after:hover:right-[9%] after:transition-all after:ease-linear after:duration-500 "
+                                                className="text-[#E6E6E6] hover:text-white transition-colors ease-linear duration-500 text-base !leading-[200%] pb-1 font-normal ff_inter relative after:absolute after:bg-white after:h-[1.5px] after:bottom-0 after:left-[9%] after:right-[91%] after:hover:right-[9%] after:transition-all after:ease-linear after:duration-500 "
                                                 href=""
                                             >
                                                 FAQ
@@ -147,7 +147,7 @@ const Footer = () => {
                                         </li>
                                         <li>
                                             <a
-                                                className="text-[#E6E6E6] hover:text-white transition-colors ease-linear duration-500 text-base !leading-[200%] pb-1 font-normal ff_inter relative after:absolute after:bg-white after:h-[0.5px] after:bottom-0 after:left-[9%] after:right-[91%] after:hover:right-[9%] after:transition-all after:ease-linear after:duration-500 "
+                                                className="text-[#E6E6E6] hover:text-white transition-colors ease-linear duration-500 text-base !leading-[200%] pb-1 font-normal ff_inter relative after:absolute after:bg-white after:h-[1.5px] after:bottom-0 after:left-[9%] after:right-[91%] after:hover:right-[9%] after:transition-all after:ease-linear after:duration-500 "
                                                 href=""
                                             >
                                                 Help support

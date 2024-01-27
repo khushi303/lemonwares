@@ -150,7 +150,7 @@ const Tabs = () => {
 const HeaderTab = () => {
   return (
     <>
-      <div id='services' className='container mx-auto xl:max-w-[1239px] xl:px-3 px-6'>
+      <div id='account' className='container mx-auto xl:max-w-[1239px] xl:px-3 px-6'>
         <Tabs />
       </div>
     </>

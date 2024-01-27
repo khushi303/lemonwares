@@ -6,7 +6,7 @@ const GetStarted = () => {
     const [show, setShow] = useState(false)
     return (
         <>
-            <div id='account' className='container mx-auto xl:max-w-[1121px] xl:px-3 px-6 lg:mt-[133px] mt-[60px]'>
+            <div id='services' className='container mx-auto xl:max-w-[1121px] xl:px-3 px-6 lg:mt-[133px] mt-[60px]'>
                 <div className='flex items-center justify-center flex-col'>
                     <h2 data-aos="fade-down" className='sm:text-[50px] text-[31px] font-semibold leading-[120%] text-black text-center max-w-[650px] lg:pb-[38px] pb-[25px]'>Ready to get started with
                         Lemon Wares?</h2>
