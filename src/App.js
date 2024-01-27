@@ -76,7 +76,7 @@ function App() {
           <GetInTouch />
           <Footer />
           <div className='fixed bottom-4 right-4 z-[6] cursor-pointer'>
-            <div className={`${backToTop ? '' : 'hidden'} fixed rounded-[8px] border border-solid border-white bottom-[4%] right-[2%] sm:w-[50px] sm:h-[50px] w-[30px] h-[30px] cursor-pointer animate-[mover_2500ms_ease-in-out_infinite] flex items-center justify-center`} onClick={() => top()}>
+            <div className={`${backToTop ? '' : 'hidden'} fixed rounded-[8px] border border-solid border-white bottom-[4%] right-[2%] sm:w-[50px] sm:h-[50px] w-[40px] h-[40px] cursor-pointer animate-[mover_2500ms_ease-in-out_infinite] flex items-center justify-center`} onClick={() => top()}>
               <img src={BackToTop} alt="Backtotop" className='w-full rounded-[8.6px]' />
             </div>
           </div>

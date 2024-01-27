@@ -10,23 +10,23 @@ const GetStarted = () => {
                 <div className='flex items-center justify-center flex-col'>
                     <h2 data-aos="fade-down" className='sm:text-[50px] text-[31px] font-semibold leading-[120%] text-black text-center max-w-[650px] lg:pb-[38px] pb-[25px]'>Ready to get started with
                         Lemon Wares?</h2>
-                    <p data-aos="fade-down" className='text-[25px] font-normal leading-[100%] text-black text-center'>Choose the package that suits you</p>
+                    <p data-aos="fade-down" className='sm:text-[25px] text-[20px] font-normal leading-[100%] text-black text-center'>Choose the package that suits you</p>
                     <div data-aos="fade-down" className='lg:mt-[57px] mt-[30px] flex items-center lg:mb-[70px] mb-[32px]'>
-                        <p className='text-[25px] font-normal leading-[100%] text-black pr-[31px]'>Monthly</p>
+                        <p className='sm:text-[25px] text-[20px] font-normal leading-[100%] text-black pr-[31px]'>Monthly</p>
                         <div onClick={() => setToggle(!toggle)} className='w-[93px] cursor-pointer h-[50px] rounded-[73px] bg-[#B00000] px-[9px] py-[10px]'>
                             <div className={`${toggle ? "translate-x-[144%]" : "translate-x-0"} w-[30px] transition-transform duration-300 ease-linear h-[30px] rounded-[50%] bg-white`}></div>
                         </div>
-                        <p className='text-[25px] font-normal leading-[100%] text-black pl-[26px]'>Yearly</p>
+                        <p className='sm:text-[25px] text-[20px] font-normal leading-[100%] text-black pl-[26px]'>Yearly</p>
                         <button className='px-[8px] sm:block hidden py-[7px] bg-[#FFE87A] rounded-[8px] text-[10px] font-semibold text-black leading-[90%] ml-[17px]'>
                             20%  discount
                         </button>
                     </div>
                     <div data-aos="fade-down" className='flex flex-row flex-wrap max-w-[856px] w-full justify-center lg:mb-[84px] mb-[50px]'>
                         <div onClick={() => setShow(false)} className={`${show ? "border-[#C4C4C4]" : "border-[#B00000]"} w-[50%] transition-all duration-300 ease-linear border-b-[4px] border-solid pb-[6px] cursor-pointer`}>
-                            <p className='text-[30px] font-semibold leading-[133.333%] text-center text-black'>Basic</p>
+                            <p className='sm:text-[30px] text-[25px] font-semibold leading-[133.333%] text-center text-black'>Basic</p>
                         </div>
                         <div onClick={() => setShow(true)} className={`${show ? " border-[#B00000]" : "border-[#C4C4C4]"} w-[50%] transition-all duration-300 ease-linear border-b-[4px] border-solid pb-[6px] cursor-pointer`}>
-                            <p className='text-[30px] font-semibold leading-[133.333%] text-center text-black'>Premium</p>
+                            <p className='sm:text-[30px] text-[25px] font-semibold leading-[133.333%] text-center text-black'>Premium</p>
                         </div>
                     </div>
                     <div className='flex w-full flex-row flex-wrap sm:justify-between justify-center gap-[30p x]'>

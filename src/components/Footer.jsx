@@ -24,7 +24,7 @@ const Footer = () => {
                         <div className="lg:w-7/12 w-full pt-9 lg:pt-0">
                             <div className="flex flex-row justify-between flex-wrap">
                                 <div className="md:w-[18%] w-6/12">
-                                    <ul className=" flex flex-col gap-6">
+                                    <ul className=" flex flex-col sm:gap-6 gap-4">
                                         <li className="text-white text-base !leading-[150%] font-bold ff_inter ">
                                             Service
                                         </li>
@@ -63,7 +63,7 @@ const Footer = () => {
                                     </ul>
                                 </div>
                                 <div className="md:w-[21%] w-6/12">
-                                    <ul className="flex flex-col gap-6">
+                                    <ul className="flex flex-col sm:gap-6 gap-4">
                                         <li className="text-white text-base !leading-[150%] font-bold ff_inter ">
                                             Hosting
                                         </li>
@@ -102,7 +102,7 @@ const Footer = () => {
                                     </ul>
                                 </div>
                                 <div className="md:w-[18%] w-6/12 pt-7 md:pt-0">
-                                    <ul className="flex flex-col gap-6">
+                                    <ul className="flex flex-col sm:gap-6 gap-4">
                                         <li className="text-white text-base !leading-[150%] font-bold ff_inter ">
                                             Company
                                         </li>
@@ -133,7 +133,7 @@ const Footer = () => {
                                     </ul>
                                 </div>
                                 <div className="md:w-[18%] w-6/12 pt-7 md:pt-0">
-                                    <ul className="flex flex-col gap-6">
+                                    <ul className="flex flex-col sm:gap-6 gap-4">
                                         <li className="text-white text-base !leading-[150%] font-bold ff_inter ">
                                             Help
                                         </li>
