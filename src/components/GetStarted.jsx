@@ -31,7 +31,7 @@ const GetStarted = () => {
                     </div>
                     <div className='flex w-full flex-row flex-wrap sm:justify-between justify-center gap-[30p x]'>
                         <div data-aos="fade-right" className='xl:w-[28%] lg:w-[31%] sm:w-[48%] w-full  sm:block flex items-center justify-center'>
-                            <div className='pl-[35px] pr-[27px] pt-[34px] pb-[48px] sm:max-w-[unset] max-w-[320px] group cursor-pointer border-[1.5px] border-solid border-[#f6e3e3ab] rounded-[15px] shadow-[0px_0px_4px_0px_rgba(0,0,0,0.25)_inset] hover:bg-[#c4c4c425] transition-all duration-300 ease-linear'>
+                            <div className='pl-[35px] pr-[27px] pt-[34px] pb-[48px] sm:max-w-[unset] max-w-[320px] group cursor-pointer border-[1.5px] border-solid border-[#C4C4C4] rounded-[15px] shadow-[0px_0px_4px_0px_rgba(0,0,0,0.15)_inset] hover:bg-[#c4c4c425] transition-all duration-300 ease-linear'>
                                 <h3 className={`${show ? "text-[#B00000]" : "text-black"} text-[28px] font-semibold leading-[89.286%]`}>Starter</h3>
                                 <p className='text-[12px] font-normal text-black leading-[150%] max-w-[237px] mt-[11px]'>with all your customers via all conversation channels in one central dashboard.</p>
                                 {toggle ? (<div>{show ? (<p className='text-[#B00000] text-[42px] font-semibold leading-[76.19%] mt-[28px]'>$60.00</p>) : (<p className='text-black text-[42px] font-semibold leading-[76.19%] mt-[28px]'>$40:20</p>)}</div>) : (<div>{show ? (<p className='text-[#B00000] text-[42px] font-semibold leading-[76.19%] mt-[28px]'>$4.00</p>) : (<p className='text-black text-[42px] font-semibold leading-[76.19%] mt-[28px]'>$2:80</p>)}</div>)}
@@ -78,7 +78,7 @@ const GetStarted = () => {
                             </div>
                         </div>
                         <div data-aos="fade-up" className='xl:w-[28%] lg:w-[31%] sm:w-[48%] w-full sm:mt-0 mt-6 sm:block flex items-center justify-center'>
-                            <div className=' pl-[35px] pr-[27px] pt-[34px] pb-[48px] border-[1.5px] cursor-pointer group sm:max-w-[unset] max-w-[320px] border-solid border-[#C4C4C4] rounded-[15px] shadow-[0px_0px_4px_0px_rgba(0,0,0,0.25)_inset] hover:bg-[#c4c4c425] transition-all duration-300 ease-linear'>
+                            <div className=' pl-[35px] pr-[27px] pt-[34px] pb-[48px] border-[1.5px] cursor-pointer group sm:max-w-[unset] max-w-[320px] border-solid border-[#C4C4C4] rounded-[15px] shadow-[0px_0px_4px_0px_rgba(0,0,0,0.15)_inset] hover:bg-[#c4c4c425] transition-all duration-300 ease-linear'>
                                 <h3 className={`${show ? "text-[#B00000]" : "text-black"} text-[28px] font-semibold leading-[89.286%]`}>Standard</h3>
                                 <p className='text-[12px] font-normal text-black leading-[150%] max-w-[237px] mt-[11px]'>with all your customers via all conversation channels in one central dashboard.</p>
                                 {toggle ? (<div>{show ? (<p className='text-[#B00000] text-[42px] font-semibold leading-[76.19%] mt-[28px]'>$80.00</p>) : (<p className='text-black text-[42px] font-semibold leading-[76.19%] mt-[28px]'>$50:20</p>)}</div>) : (<div>{show ? (<p className='text-[#B00000] text-[42px] font-semibold leading-[76.19%] mt-[28px]'>$8.00</p>) : (<p className='text-black text-[42px] font-semibold leading-[76.19%] mt-[28px]'>$4:20</p>)}</div>)}
@@ -125,7 +125,7 @@ const GetStarted = () => {
                             </div>
                         </div>
                         <div data-aos="fade-left" className='xl:w-[28%] lg:w-[31%] sm:w-[48%] w-full lg:mx-[unset] sm:mx-auto lg:mt-0 mt-6 sm:block flex items-center justify-center'>
-                            <div className=' pl-[35px] pr-[27px] pt-[34px] pb-[48px] border-[1.5px] group cursor-pointer sm:max-w-[unset] max-w-[320px] border-solid border-[#C4C4C4] rounded-[15px] shadow-[0px_0px_4px_0px_rgba(0,0,0,0.25)_inset] hover:bg-[#c4c4c425] transition-all duration-300 ease-linear'>
+                            <div className=' pl-[35px] pr-[27px] pt-[34px] pb-[48px] border-[1.5px] group cursor-pointer sm:max-w-[unset] max-w-[320px] border-solid border-[#C4C4C4] rounded-[15px] shadow-[0px_0px_4px_0px_rgba(0,0,0,0.15)_inset] hover:bg-[#c4c4c425] transition-all duration-300 ease-linear'>
                                 <h3 className={`${show ? "text-[#B00000]" : "text-black"} text-[28px] font-semibold transition-colors duration-300 ease-linear leading-[89.286%]`}>Suprem</h3>
                                 <p className='text-[12px] font-normal text-black leading-[150%] max-w-[237px] mt-[11px]'>with all your customers via all conversation channels in one central dashboard.</p>
                                 {toggle ? (<div>{show ? (<p className='text-[#B00000] text-[42px] font-semibold leading-[76.19%] mt-[28px]'>$120.00</p>) : (<p className='text-black text-[42px] font-semibold leading-[76.19%] mt-[28px]'>$100:20</p>)}</div>) : (<div>{show ? (<p className='text-[#B00000] text-[42px] font-semibold leading-[76.19%] mt-[28px]'>$10.00</p>) : (<p className='text-black text-[42px] font-semibold leading-[76.19%] mt-[28px]'>$7:00</p>)}</div>)}
