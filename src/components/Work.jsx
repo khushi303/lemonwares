@@ -10,9 +10,9 @@ const Work = () => {
     return (
         <>
             <div className='container mx-auto xl:max-w-[1218px] xl:px-3 px-6'>
-                <div className='flex flex-row flex-wrap justify-between pb-[19px]'>
+                <div className='flex flex-row flex-wrap justify-between lg:pb-[19px]'>
                     <div data-aos="fade-right" className='lg:w-[50%] w-full'>
-                        <h2 className='sm:text-[48px] text-[35px] ff_inter font-extrabold leading-[133.333%] tracking-[#18191F] lg:max-w-[445px]'>We serve over 100
+                        <h2 className='sm:text-[48px] text-[28px] ff_inter font-extrabold leading-[133.333%] tracking-[#18191F] lg:max-w-[445px]'>We serve over 100
                             Nigerian Websites</h2>
                         <p className='text-[18px] font-normal leading-[177.778%] text-[#18191F] ff_inter lg:max-w-[445px] mt-[8px]'>Connect LemonWares with your favourite tools that you use daily and keep things on track.</p>
                     </div>

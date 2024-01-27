@@ -65,9 +65,9 @@ const Tabs = () => {
         <div className={openTab === 1 ? "block" : "hidden"} id="link1">
           <div className='flex flex-row flex-wrap'>
             <div data-aos="fade-right" className='lg:w-1/2 w-full pt-[26px]'>
-              <h2 className='lg:text-[64px] sm:text-[60px] text-[38px] font-bold leading-[121.094%] text-[#2E2E2E] lg:max-w-[600px]'>Premium Web Hosting for your Website</h2>
+              <h2 className='lg:text-[64px] sm:text-[60px] text-[36px] font-bold leading-[121.094%] text-[#2E2E2E] lg:max-w-[600px]'>Premium Web Hosting for your Website</h2>
               <p className='text-[16px] font-normal ff_inter leading-[175%] tracking-[0.8px] lg:max-w-[448px] text-[#808080] lg:mt-[34px] lg:mb-[60px] my-5'>Blazing fast web hosting for individuals and businesses of all sizes backed by 24x7x365 Support.</p>
-              <div className='flex sm:gap-[24px] gap-[16px]'>
+              <div className='flex sm:gap-[24px] gap-[16px] flex-wrap'>
                 <button className='sm:py-[12px] sm:px-[13.5px] p-[10px] text-[14px] font-normal leading-[171.429%] text-white rounded-[8px] bg-[#B00000] border border-solid border-[#B00000] shadow-[0px_0px_64px_0px_rgba(176,0,0,0.30)] whitespace-nowrap hover:shadow-[0px_2px_20px_0px_rgba(176,0,0,0.30)] transition-shadow duration-300 ease-linear'>Create an Account</button>
                 <button className='sm:py-[12px] sm:px-[17.5px] py-[10px] px-[14.3px] text-[14px] font-normal leading-[171.429%] hover:shadow-[0px_2px_30px_0px_rgba(0,0,0,0.30)] transition-all duration-300 ease-linear text-black rounded-[8px] bg-transparent border border-solid border-black'>Choose your plan</button>
               </div>
@@ -87,9 +87,9 @@ const Tabs = () => {
             <div className='lg:w-1/2 w-full pt-[26px]'>
               <h2 className='lg:text-[64px] sm:text-[60px] text-[38px] font-bold leading-[121.094%] text-[#2E2E2E] lg:max-w-[600px]'>Premium Web Domain for your Website</h2>
               <p className='text-[16px] font-normal ff_inter leading-[175%] tracking-[0.8px] lg:max-w-[448px] text-[#808080] lg:mt-[34px] lg:mb-[60px] my-5'>Blazing fast web hosting for individuals and businesses of all sizes backed by 24x7x365 Support.</p>
-              <div className='flex sm:gap-[24px] gap-[16px]'>
+              <div className='flex sm:gap-[24px] gap-[6px]'>
                 <button className='sm:py-[12px] sm:px-[13.5px] p-[10px] text-[14px] font-normal leading-[171.429%] text-white rounded-[8px] bg-[#B00000] border border-solid border-[#B00000] shadow-[0px_0px_64px_0px_rgba(176,0,0,0.30)] whitespace-nowrap hover:shadow-[2px_6px_12px_0px_rgba(176,0,0,0.30)] transition-shadow duration-300 ease-linear'>Create an Account</button>
-                <button className='sm:py-[12px] sm:px-[17.5px] py-[10px] px-[14.3px] text-[14px] font-normal leading-[171.429%] hover:shadow-[0px_2px_30px_0px_rgba(0,0,0,0.30)] transition-shadow duration-300 ease-linear text-black rounded-[8px] bg-transparent border border-solid border-black'>Choose your plan</button>
+                <button className='sm:py-[12px] sm:px-[17.5px] py-[10px] px-[14.3px] text-[14px] whitespace-nowrap font-normal leading-[171.429%] hover:shadow-[0px_2px_30px_0px_rgba(0,0,0,0.30)] transition-shadow duration-300 ease-linear text-black rounded-[8px] bg-transparent border border-solid border-black'>Choose your plan</button>
               </div>
             </div>
             <div className='lg:w-1/2 w-full flex lg:justify-end lg:mt-0 mt-10'>

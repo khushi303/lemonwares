@@ -8,7 +8,7 @@ import PinkComa from '../assets/images/png/pinkcoma.png';
 const Stories = () => {
     return (
         <>
-            <div id='blognews' className='container mx-auto xl:max-w-[1218px] xl:px-3 px-6 lg:my-[105px] sm:my-[60px] my-[50px]'>
+            <div id='blognews' className='container mx-auto xl:max-w-[1218px] xl:px-3 px-6 lg:my-[105px] sm:my-[60px] my-[40px]'>
                 <div className='flex flex-row flex-wrap justify-center relative xl:pt-[56px] lg:pt-[40px] pt-[20px]'>
                     <div className='md:w-1/2 flex flex-col md:items-end '>
                         <div data-aos="fade-down" className='max-w-[445px]'>
