@@ -15,13 +15,13 @@ const Footer = () => {
                                     className="w-full h-[80px] max-w-[120.959px]"
                                 />
                             </a>
-                            <p className="pt-4 text-[#E6E6E6] ff_inter font-normal text-base !leading-[200%] ">
+                            <p className="pt-4 text-[#E6E6E6] ff_inter font-normal text-base !leading-[200%] max-w-[296px]">
                                 Lorem ipsum dolor sit amet, consectetur adipiscing elit ut
                                 aliquam, purus sit amet luctus venenatis, lectus magna fringilla
                                 urna, porttitor rhoncus dolor purus non enim praesent elem
                             </p>
                         </div>
-                        <div className="lg:w-7/12 w-full pt-9 lg:pt-0">
+                        <div className="lg:w-7/12 w-full pt-9 lg:pt-4">
                             <div className="flex flex-row justify-between flex-wrap">
                                 <div className="md:w-[18%] w-6/12">
                                     <ul className=" flex flex-col sm:gap-6 gap-4">
